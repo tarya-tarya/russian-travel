@@ -1,0 +1,68 @@
+@import url(../vendor/normalize.css);
+
+.page {
+  background-color: #2A2C2F;
+  font-family: 'Inter';
+  color: #fff;
+}
+
+.logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo_place_header {
+  margin-left: 48px;
+  margin-top: 28px;
+}
+
+.header__lang-link {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  box-sizing: border-box;
+  padding-right: 48px;
+  padding-top: 46px;
+}
+
+.header__lang-link_lang_ru {
+  margin-right: 18px;
+  padding-right: 0;
+}
+
+.header__lang-link_lang_en {
+  text-decoration: none;
+}
+
+.lead__title {
+  font-size: 96px;
+  line-height: 100px;
+  width: 720px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lead__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 32px auto 64px auto;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  display: block;
+  margin: 0 auto;
+}
