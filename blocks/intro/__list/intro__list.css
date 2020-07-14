@@ -1,0 +1,11 @@
+@import url(./_weight/intro__list_weight_bold.css);
+
+.intro__list {
+  margin-left: 148px;
+  height: 90px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 32px;
+  list-style: none;
+  padding-left: 0;
+}

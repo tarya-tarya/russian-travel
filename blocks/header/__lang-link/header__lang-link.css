@@ -1,0 +1,16 @@
+@import url(./_lang/header__lang-link_lang_en.css);
+@import url(./_lang/header__lang-link_lang_ru.css);
+
+.header__lang-link {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  box-sizing: border-box;
+  padding-top: 46px;
+}
+
+.header__lang-link:hover {
+  cursor: pointer;
+}
