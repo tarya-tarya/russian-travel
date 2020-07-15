@@ -9,3 +9,7 @@
 * Флексбоксы
 * Grid Layout
 * Медиазапросы
+
+## GitHub Pages
+
+https://tarya-tarya.github.io/russian-travel/
