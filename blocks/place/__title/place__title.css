@@ -8,10 +8,10 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .place__title {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 35px;
-    margin-bottom: 92px;
+    max-width: 340px;
   }
 }

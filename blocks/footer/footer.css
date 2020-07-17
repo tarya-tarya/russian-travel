@@ -9,6 +9,19 @@
   padding-top: 68px;
   padding-bottom: 24px;
   flex-wrap: wrap;
-  max-width: 1184px;
+  max-width: calc(1184px - 96px);
   margin: 0 auto;
+}
+
+@media screen and (max-width: 786px) {
+  .footer {
+    max-width: calc(786px - 48px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    min-height: 310px;
+  }
 }
