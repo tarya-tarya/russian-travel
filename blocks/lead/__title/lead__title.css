@@ -4,11 +4,17 @@
   font-weight: bold;
   max-width: 720px;
   min-width: 288px;
-  min-height: 200px;
   text-align: center;
   margin: 0 auto;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    padding-top: 54px;
+  }
 }
 
 @media screen and (max-width: 768px) {

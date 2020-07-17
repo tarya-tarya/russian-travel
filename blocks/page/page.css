@@ -3,6 +3,6 @@
   font-family: 'Inter', sans-serif;
   color: #fff;
   margin: 0 auto;
-  max-width: 1600px;
   text-rendering: optimizeLegibility;
+  min-width: 320px;
 }

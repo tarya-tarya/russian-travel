@@ -4,8 +4,12 @@
   font-size: 16px;
   line-height: 18px;
   margin-right: 18px;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer__link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }

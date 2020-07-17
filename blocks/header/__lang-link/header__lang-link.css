@@ -1,5 +1,5 @@
-@import url(./_lang/header__lang-link_lang_en.css);
-@import url(./_lang/header__lang-link_lang_ru.css);
+@import url(./_lang/header__lang-link_status_active.css);
+@import url(./_lang/header__lang-link_status_not-active.css);
 
 .header__lang-link {
   color: #fff;
@@ -9,8 +9,12 @@
   line-height: 28px;
   box-sizing: border-box;
   padding-top: 46px;
+  margin-right: 18px;
 }
 
 .header__lang-link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
+
+

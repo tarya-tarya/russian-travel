@@ -1,18 +1,16 @@
 .cover__background {
   max-width: 1184px;
-  min-height: 740px;
   margin-right: auto;
   margin-left: auto;
   display: block;
   background-image: url(../../../images/baikal-travel.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1280px) {
   .cover__background {
     max-width: 100%;
-    padding-bottom: 100%;
     height: auto;
   }
 }

@@ -4,4 +4,6 @@
   text-transform: uppercase;
   align-self: flex-start;
   margin: 0;
+  letter-spacing: 0.15em;
+  margin-top: 8px;
 }

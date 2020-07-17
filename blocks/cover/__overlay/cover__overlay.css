@@ -3,4 +3,10 @@
   height: 100%;
   background: rgba(42, 44, 47, 0.3);
   display: block;
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+  background: #2A2C2F;
 }
