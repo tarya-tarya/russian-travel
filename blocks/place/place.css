@@ -39,3 +39,11 @@
     grid-row-gap: 48px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .place {
+    grid-template-rows: min-content;
+    margin-top: 0;
+    padding-top: 48px;
+  }
+}
