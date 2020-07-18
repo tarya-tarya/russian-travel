@@ -4,3 +4,9 @@
   line-height: 170%;
   letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 400px) {
+  .place__url-heading {
+    margin: 0;
+  }
+}
