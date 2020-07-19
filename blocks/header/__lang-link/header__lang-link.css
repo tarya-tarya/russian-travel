@@ -1,5 +1,4 @@
-@import url(./_lang/header__lang-link_status_active.css);
-@import url(./_lang/header__lang-link_status_not-active.css);
+@import url(./_status/header__lang-link_status_active.css);
 
 .header__lang-link {
   color: #fff;
@@ -10,6 +9,11 @@
   box-sizing: border-box;
   padding-top: 46px;
   margin-right: 18px;
+  text-decoration: none;
+}
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 .header__lang-link:hover {

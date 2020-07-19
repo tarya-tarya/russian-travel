@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 827px) {
   .place__image {
     max-width: 340px;
   }
@@ -18,5 +18,6 @@
 @media screen and (max-width: 400px) {
   .place__image {
     max-width: 320px;
+    padding-bottom: 32px;
   }
 }

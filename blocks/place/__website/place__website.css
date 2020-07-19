@@ -2,7 +2,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
   .place__website {
     z-index: -1;
   }

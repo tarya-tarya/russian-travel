@@ -1,16 +1,35 @@
 .cover__background {
   max-width: 1184px;
+  max-height: 740px;;
   margin-right: auto;
   margin-left: auto;
   display: block;
   background-image: url(../../../images/baikal-travel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 1280px) {
   .cover__background {
     max-width: 100%;
-    height: auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .cover__background {
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cover__background {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cover__background {
+    max-height: 200px;
   }
 }

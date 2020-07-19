@@ -4,9 +4,27 @@
   background: rgba(42, 44, 47, 0.3);
   display: block;
   text-decoration: none;
+  max-height: 740px;
 }
 
 .cover__overlay:hover {
-  opacity: 0.8;
-  background: #2A2C2F;
+  background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1025px) {
+  .cover__overlay {
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cover__overlay {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cover__overlay {
+    max-height: 200px;
+  }
 }

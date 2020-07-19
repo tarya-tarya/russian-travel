@@ -1,4 +1,5 @@
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_status/header__lang-link_status_active.css);
 
 .header {
   display: flex;
