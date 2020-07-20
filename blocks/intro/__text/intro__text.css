@@ -7,3 +7,8 @@
   margin-top: 40px;
 }
 
+@media screen and (max-width: 400px) {
+  .intro__text {
+    max-width: 288px;
+  }
+}

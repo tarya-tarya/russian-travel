@@ -3,8 +3,19 @@
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   max-width: 1184px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header {
+    max-width: 720px;
+  }
 }
